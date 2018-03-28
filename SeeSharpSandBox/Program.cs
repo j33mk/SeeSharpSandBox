@@ -12,7 +12,7 @@ namespace SeeSharpSandBox
         public static void Main(string[] args)
         {
             //Bubble sort algorithm
-            char[] chars = "mother nation is here for us".ToCharArray();
+            char[] chars = "a quick brown fox jumps over the lazy dog".ToCharArray();
             int[] numbers = new[]{1,2,3,4,5,6,8};
             SortingAlgorithms.DisplaySequence(chars);
             SortingAlgorithms.BubbleSortDescendingCharacters(chars);
